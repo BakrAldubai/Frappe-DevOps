@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include devops *.css
+recursive-include devops *.csv
+recursive-include devops *.html
+recursive-include devops *.ico
+recursive-include devops *.js
+recursive-include devops *.json
+recursive-include devops *.md
+recursive-include devops *.png
+recursive-include devops *.py
+recursive-include devops *.svg
+recursive-include devops *.txt
+recursive-exclude devops *.pyc
