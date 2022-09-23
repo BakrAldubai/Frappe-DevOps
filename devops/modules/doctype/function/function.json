@@ -1,0 +1,145 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-09-23 03:40:21.584652",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "file_type",
+  "column_break_2",
+  "file_directory",
+  "section_break_4",
+  "class",
+  "column_break_4",
+  "function_name",
+  "section_break_3",
+  "job_and_prupose",
+  "section_break_10",
+  "context",
+  "section_break_5",
+  "header",
+  "column_break_7",
+  "variables",
+  "column_break_9",
+  "return",
+  "section_break_11",
+  "called_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "file_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "File Type",
+   "options": "\nJS\nPython",
+   "reqd": 1
+  },
+  {
+   "fieldname": "function_name",
+   "fieldtype": "Data",
+   "label": "Function Name"
+  },
+  {
+   "fieldname": "context",
+   "fieldtype": "HTML Editor",
+   "label": "Context"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "header",
+   "fieldtype": "HTML Editor",
+   "label": "Header"
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "variables",
+   "fieldtype": "HTML Editor",
+   "label": "Variables"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "return",
+   "fieldtype": "HTML Editor",
+   "label": "Return"
+  },
+  {
+   "fieldname": "section_break_11",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "called_by",
+   "fieldtype": "Table MultiSelect",
+   "label": "Called By",
+   "options": "Multi Functions"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "class",
+   "fieldtype": "Link",
+   "label": "Class",
+   "options": "Class"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "file_directory",
+   "fieldtype": "Data",
+   "label": "File Directory"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "job_and_prupose",
+   "fieldtype": "Small Text",
+   "label": "Job and Prupose"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-23 04:31:27.259532",
+ "modified_by": "Administrator",
+ "module": "Modules",
+ "name": "Function",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

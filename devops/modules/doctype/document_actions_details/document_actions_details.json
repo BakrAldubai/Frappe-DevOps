@@ -1,0 +1,39 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-09-23 03:43:13.759881",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_action",
+  "functions_sequense"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_action",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Document Action",
+   "options": "Document Action"
+  },
+  {
+   "fieldname": "functions_sequense",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Functions Sequense",
+   "options": "Functions Sequense"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-09-23 03:44:32.071188",
+ "modified_by": "Administrator",
+ "module": "Modules",
+ "name": "Document Actions Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

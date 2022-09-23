@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:document",
+ "creation": "2022-09-23 03:22:44.287169",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "document",
+  "module",
+  "section_break_4",
+  "description",
+  "section_break_6",
+  "document_actions_details",
+  "section_break_8",
+  "field_effect_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "document",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Document",
+   "options": "DocType",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fetch_from": "document.module",
+   "fieldname": "module",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Module",
+   "options": "Module Def",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Type",
+   "options": "DocType\nPage\nReport",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "document_actions_details",
+   "fieldtype": "Table",
+   "label": "Document Actions Details",
+   "options": "Document Actions Details"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "field_effect_details",
+   "fieldtype": "Table",
+   "label": "Field Effect Details",
+   "options": "Field Effect Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-23 04:38:46.089270",
+ "modified_by": "Administrator",
+ "module": "Modules",
+ "name": "Document",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

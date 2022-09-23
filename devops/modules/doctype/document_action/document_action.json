@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:action",
+ "creation": "2022-09-23 03:28:35.706801",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "action",
+  "type",
+  "section_break_3",
+  "why",
+  "section_break_5",
+  "standard",
+  "standard_action",
+  "column_break_8",
+  "is_primary_action",
+  "pre_actions"
+ ],
+ "fields": [
+  {
+   "fieldname": "action",
+   "fieldtype": "Data",
+   "label": "Action",
+   "unique": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nUser Action\nAuto Action"
+  },
+  {
+   "fieldname": "standard_action",
+   "fieldtype": "Select",
+   "label": "Standard Action",
+   "options": "\nNew\nDelete\nSave\nSubmit\nCancel\nAmend\nUpdate Field Value\nPress Custom Button\nRename\nPrint"
+  },
+  {
+   "default": "0",
+   "fieldname": "standard",
+   "fieldtype": "Check",
+   "label": "Is Standard"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_primary_action",
+   "fieldtype": "Check",
+   "label": "Is Primary Action"
+  },
+  {
+   "fieldname": "why",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "pre_actions",
+   "fieldtype": "Table MultiSelect",
+   "label": "Pre Actions",
+   "options": "Multi Actions"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-23 04:04:06.639447",
+ "modified_by": "Administrator",
+ "module": "Modules",
+ "name": "Document Action",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

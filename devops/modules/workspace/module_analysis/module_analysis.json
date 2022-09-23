@@ -1,0 +1,70 @@
+{
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-09-23 04:34:42.864707",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Module Analysis",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Document",
+   "link_to": "Document",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Document Action",
+   "link_to": "Document Action",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Functions Sequense",
+   "link_to": "Functions Sequense",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Function",
+   "link_to": "Function",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Class",
+   "link_to": "Class",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-09-23 04:35:56.647543",
+ "modified_by": "Administrator",
+ "module": "Modules",
+ "name": "Module Analysis",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": []
+}
